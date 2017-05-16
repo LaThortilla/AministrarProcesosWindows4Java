@@ -15,11 +15,11 @@
      miProceso.kill();
   ```
   
-    -Obtener Información de proceso:
+    - Obtener Información de proceso 
    ```java
      miProceso.getNombre(); // Nombre del proceso
      miProceso.getEAstado(); // Estado actual del proceso
-     miProceso.getTiempoCPU(); / Es una la cantidad de tiempo de CPU (ciclos) que se han utilizado desde el inicio del proceso
+     miProceso.getTiempoCPU(); // Es una la cantidad de tiempo de CPU (ciclos) que se han utilizado desde el inicio del proceso
      miProceso.getNombreUsuario(); //Nombre de usuario que inicio el proceso (Propietario del proceso)
      miProceso.getTituloVentana(); //Nombre del titulo de la ventana del proceso
      miProceso.getPID(); // Numero de Identificación del proceso (PID)
