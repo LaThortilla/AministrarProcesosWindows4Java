@@ -5,17 +5,17 @@
   
 ## Uso
   
-  - Obtener Proceso
+ - Obtener Proceso
   
   ```java
     Proceso miProceso = Proceso.getProcesoByPID("5236");
   ```
-   - Matar Proceso
+ - Matar Proceso
    ```java
      miProceso.kill();
   ```
   
-    - Obtener Información de proceso 
+ - Obtener Información de proceso 
    ```java
      miProceso.getNombre(); // Nombre del proceso
      miProceso.getEAstado(); // Estado actual del proceso
