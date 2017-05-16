@@ -10,13 +10,15 @@
   ```java
     Proceso miProceso = Proceso.getProcesoByPID("5236");
   ```
- - Matar Proceso
+  
+   - Matar Proceso
    ```java
-     miProceso.kill();
-  ```
+      miProceso.kill();
+   ```
   
  - Obtener Información de proceso 
-   ```java
+ 
+    ```java
      miProceso.getNombre(); // Nombre del proceso
      miProceso.getEAstado(); // Estado actual del proceso
      miProceso.getTiempoCPU(); // Es una la cantidad de tiempo de CPU (ciclos) que se han utilizado desde el inicio del proceso
@@ -26,7 +28,7 @@
      miProceso.getUsomemoria(); // Uso de RAM que consume el proceso
      miProceso.getNumeroSession(); // Numero de session
      miProceso.getNombreSession(); //Nombre de la session
-  ```
+   ```
   
   
 
